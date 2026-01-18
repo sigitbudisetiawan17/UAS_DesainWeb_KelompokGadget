@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smartphone | Xiaomi</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+      <div class="container">
+        <!-- Logo Placeholder -->
+        <div class="logo-box">
+          <img src="image/home/logo.png" alt="logo" />
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto ms-4">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+            <!-- Smartphone -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Smartphone</a
+              >
+              <ul class="dropdown-menu custom-dropdown">
+                <li><a class="dropdown-item" href="hpsamsung.html">Samsung</a></li>
+                <li><a class="dropdown-item" href="hpiphone.html">Apple</a></li>
+                <li><a class="dropdown-item" href="hpxiaomi.html">Xiaomi</a></li>
+              </ul>
+            </li>
+
+            <!-- Tablet -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Tablet</a
+              >
+              <ul class="dropdown-menu custom-dropdown">
+                <li><a class="dropdown-item" href="samsungtab.html">Samsung</a></li>
+                <li><a class="dropdown-item" href="ipad.html">Apple</a></li>
+                <li><a class="dropdown-item" href="xiaomitab.html">Xiaomi</a></li>
+              </ul>
+            </li>
+
+            <!-- Laptop -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Laptop</a
+              >
+              <ul class="dropdown-menu custom-dropdown">
+                <li><a class="dropdown-item" href="asus.html">Asus</a></li>
+                <li><a class="dropdown-item" href="lenovo.html">Lenovo</a></li>
+                <li><a class="dropdown-item" href="mac.html">Apple</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+
+          <!-- Search -->
+          <form class="d-flex search-box">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Cari gadget..."
+            />
+            <button class="btn btn-search" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ====== KONTEN GADGET ====== -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Xiaomi</h2>
+
+      <!-- LOGO BRAND -->
+      <!-- LOGO BRAND (KLIK) -->
+      <div class="text-center mb-5">
+        <img
+          src="image/gadget/xiaomi/xiaomi.png"
+          alt="Brand Logo"
+          class="brand-logo"
+          role="button"
+          data-bs-toggle="modal"
+          data-bs-target="#brandModal"
+        />
+      </div>
+
+      <!-- DETAIL BRAND -->
+      <div class="modal fade" id="brandModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content bg-dark text-white rounded-4">
+            <div class="modal-header border-0">
+              <h5 class="modal-title">Tentang Brand</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+
+            <div class="modal-body text-center">
+              <img
+                src="image/gadget/xiaomi/xiaomi.png"
+                class="mb-3"
+                width="120"
+              />
+              <p>
+                Xiaomi Corporation adalah perusahaan teknologi global yang
+                didirikan pada tahun 2010 dan dikenal sebagai salah satu
+                produsen perangkat pintar terbesar di dunia. Xiaomi berfokus
+                pada pengembangan produk teknologi yang menggabungkan inovasi,
+                kualitas, dan harga yang kompetitif agar dapat diakses oleh
+                berbagai kalangan pengguna. Produk Xiaomi mencakup berbagai
+                perangkat elektronik, mulai dari smartphone, tablet, perangkat
+                wearable, hingga ekosistem Internet of Things (IoT) yang
+                terintegrasi. Dengan dukungan sistem operasi berbasis Android
+                dan antarmuka MIUI/HyperOS, Xiaomi berupaya menghadirkan
+                pengalaman pengguna yang efisien, modern, dan mudah digunakan.
+                Melalui filosofi “Innovation for Everyone”, Xiaomi terus
+                berkomitmen untuk menghadirkan teknologi mutakhir yang relevan
+                dengan kebutuhan sehari-hari, sekaligus memperluas jangkauan
+                produknya di pasar global.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GRID GADGET -->
+      <div class="row g-4">
+        <!-- CARD 1 -->
+        <div class="col-md-4">
+          <div class="phone-card text-center">
+            <img
+              src="image/gadget/xiaomi/xiaomi17pro.png"
+              class="phone-img"
+              alt="hpxiaomi 1"
+            />
+            <h5 class="mt-3">Xiaomi 17 Pro</h5>
+            <a
+              href="#"
+              class="detail-link"
+              data-bs-toggle="modal"
+              data-bs-target="#productModal1"
+            >
+              Lihat detail
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-4">
+          <div class="phone-card text-center">
+            <img
+              src="image/gadget/xiaomi/redminote14pro.png"
+              class="phone-img"
+              alt="hpxiaomi 2"
+            />
+            <h5 class="mt-3">Redmi Note 14 Pro</h5>
+            <a
+              href="#"
+              class="detail-link"
+              data-bs-toggle="modal"
+              data-bs-target="#productModal2"
+            >
+              Lihat detail
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-4">
+          <div class="phone-card text-center">
+            <img
+              src="image/gadget/xiaomi/pocox3pro.png"
+              class="phone-img"
+              alt="hpxiaomi 3"
+            />
+            <h5 class="mt-3">Poco 3 Pro</h5>
+            <a
+              href="#"
+              class="detail-link"
+              data-bs-toggle="modal"
+              data-bs-target="#productModal3"
+            >
+              Lihat detail
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col-md-4">
+          <div class="phone-card text-center">
+            <img
+              src="image/gadget/xiaomi/redmi5a.png"
+              class="phone-img"
+              alt="hpxiaomi 4"
+            />
+            <h5 class="mt-3">Redmi 5A</h5>
+            <a
+              href="#"
+              class="detail-link"
+              data-bs-toggle="modal"
+              data-bs-target="#productModal4"
+            >
+              Lihat detail
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="col-md-4">
+          <div class="phone-card text-center">
+            <img
+              src="image/gadget/xiaomi/xiaomi14tpro.png"
+              class="phone-img"
+              alt="hpxiaomi 5"
+            />
+            <h5 class="mt-3">Xiaomi 14T Pro</h5>
+            <a
+              href="#"
+              class="detail-link"
+              data-bs-toggle="modal"
+              data-bs-target="#productModal5"
+            >
+              Lihat detail
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="col-md-4">
+          <div class="phone-card text-center">
+            <img
+              src="image/gadget/xiaomi/xiaomi12.png"
+              class="phone-img"
+              alt="hpxiaomi 6"
+            />
+            <h5 class="mt-3">Xiaomi 12</h5>
+            <a
+              href="#"
+              class="detail-link"
+              data-bs-toggle="modal"
+              data-bs-target="#productModal6"
+            >
+              Lihat detail
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAIL PRODUK -->
+    <div class="modal fade" id="productModal1" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title">Xiaomi 17 Pro</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img
+                  src="image/gadget/xiaomi/xiaomi17pro.png"
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Layar: 6.7 inci AMOLED</li>
+                  <li>Prosesor: Snapdragon Series</li>
+                  <li>RAM: 12 GB</li>
+                  <li>Storage: 256 GB</li>
+                  <li>Baterai: 5000 mAh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="productModal2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title">Redmi Note 14 Pro</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img
+                  src="image/gadget/xiaomi/redminote14pro.png"
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Layar: 6.6 inci AMOLED</li>
+                  <li>Prosesor: MediaTek</li>
+                  <li>RAM: 8 GB</li>
+                  <li>Storage: 128 GB</li>
+                  <li>Baterai: 5100 mAh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="productModal3" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title">Poco X3 Pro</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img
+                  src="image/gadget/xiaomi/pocox3pro.png"
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Layar: 6.67 inci IPS</li>
+                  <li>Prosesor: Snapdragon 860</li>
+                  <li>RAM: 8 GB</li>
+                  <li>Storage: 256 GB</li>
+                  <li>Baterai: 5160 mAh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="productModal4" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title">Redmi 5A</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img
+                  src="image/gadget/xiaomi/redmi5a.png"
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Layar: 5.0 inci</li>
+                  <li>Prosesor: Snapdragon 425</li>
+                  <li>RAM: 2 GB</li>
+                  <li>Storage: 16 GB</li>
+                  <li>Baterai: 3000 mAh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="productModal5" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title">Xiaomi 14T Pro</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img
+                  src="image/gadget/xiaomi/xiaomi14tpro.png"
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Layar: 6.7 inci AMOLED</li>
+                  <li>Prosesor: Snapdragon Flagship</li>
+                  <li>RAM: 12 GB</li>
+                  <li>Storage: 512 GB</li>
+                  <li>Baterai: 5000 mAh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="productModal6" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title">Xiaomi 12</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img
+                  src="image/gadget/xiaomi/xiaomi12.png"
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Layar: 6.28 inci AMOLED</li>
+                  <li>Prosesor: Snapdragon 8 Gen 1</li>
+                  <li>RAM: 8 GB</li>
+                  <li>Storage: 256 GB</li>
+                  <li>Baterai: 4500 mAh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+      © 2026 AmbaGet Website
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
